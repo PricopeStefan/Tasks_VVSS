@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45e0fc97-8392-4b9f-8aa1-026e5a1f8f44" name="Default Changelist" comment="" />
+    <list default="true" id="45e0fc97-8392-4b9f-8aa1-026e5a1f8f44" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/lab1/Lab01_ReviewReport.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/lab1/Lab01_ReviewReport.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/lab1/RequirementsTasks_v1.0.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/lab1/RequirementsTasks_v1.0.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/ErrorHandling/ErrHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/error_handling/ErrHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/controller/NewEditController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/controller/NewEditController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/controller/Notificator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/controller/Notificator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/controller/TaskController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/model/ArrayTaskList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/model/ArrayTaskList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/model/LinkedTaskList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/model/LinkedTaskList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/model/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/model/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/model/TaskList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/model/TaskList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/model/TasksOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/model/TasksOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/services/TaskIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/services/TaskIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/view/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/view/Main.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +55,18 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tasks.view.Main" />
@@ -73,6 +101,7 @@
       <workItem from="1584023785640" duration="251000" />
       <workItem from="1584024119186" duration="4630000" />
       <workItem from="1584030816221" duration="4777000" />
+      <workItem from="1584103753036" duration="1885000" />
     </task>
     <servers />
   </component>

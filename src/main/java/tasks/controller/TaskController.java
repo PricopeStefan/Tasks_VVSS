@@ -29,14 +29,14 @@ import java.util.Date;
  */
 public class TaskController {
     private static final Logger log = Logger.getLogger(TaskController.class.getName());
-    public ObservableList<Task> tasksList;
+    private ObservableList<Task> tasksList;
     TasksService service;
     DateService dateService;
 
-    public static Stage editNewStage;
-    public static Stage infoStage;
+    static Stage editNewStage;
+    static Stage infoStage;
 
-    public static TableView mainTable;
+    static TableView mainTable;
 
     @FXML
     public  TableView tasks;
@@ -109,7 +109,7 @@ public class TaskController {
     }
     @FXML
     public void deleteTask(){
-        //CHANGED ON 12.03.2020 - toDelete can be null, can't remove null from a list
+        //toDelete can be null, can't remove null from a list
         Task toDelete = (Task)tasks.getSelectionModel().getSelectedItem();
         if (toDelete != null) {
             tasksList.remove(toDelete);

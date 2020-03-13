@@ -19,9 +19,9 @@ public class Task implements Serializable {
     private boolean active;
 
     private static final Logger log = Logger.getLogger(Task.class.getName());
-    private static final SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm");
+    private final SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm");
 
-    public static SimpleDateFormat getDateFormat(){
+    public SimpleDateFormat getDateFormat(){
         return sdf;
     }
     public Task(String title, Date time){

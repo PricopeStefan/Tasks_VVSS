@@ -1,4 +1,4 @@
-package tasks.ErrorHandling;
+package tasks.error_handling;
 
 import javafx.scene.control.Alert;
 

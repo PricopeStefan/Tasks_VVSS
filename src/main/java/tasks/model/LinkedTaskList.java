@@ -138,10 +138,6 @@ public class LinkedTaskList  extends TaskList {
             return last;
         }
 
-        private void setTask(Task task) {
-            this.task = task;
-        }
-
         private void setLast(Node last) {
             this.last = last;
         }
@@ -178,13 +174,5 @@ public class LinkedTaskList  extends TaskList {
                 "numberOfTasks=" + numberOfTasks +
                 ", last=" + last +
                 '}';
-    }
-    @Override
-    protected LinkedTaskList clone() throws CloneNotSupportedException {
-        LinkedTaskList tasks = new LinkedTaskList();
-        for (Task t : this){
-            tasks.add(t);
-        }
-        return tasks;
     }
 }

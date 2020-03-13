@@ -17,6 +17,7 @@ import java.util.Date;
  * class that reads and writes from a file data
  */
 public class TaskIO {
+    private TaskIO() {}
     private static final SimpleDateFormat simpleDateFormat = new SimpleDateFormat("[yyyy-MM-dd HH:mm:ss.SSS]");
     private static final String[] TIME_ENTITY = {" day"," hour", " minute"," second"};
     private static final int SECONDS_IN_DAY = 86400;
@@ -48,7 +49,6 @@ public class TaskIO {
         try (DataInputStream dataInputStream = new DataInputStream(in)) {
             int listLength = dataInputStream.readInt();
             for (int i = 0; i < listLength; i++) {
-                int titleLength = dataInputStream.readInt();
                 String title = dataInputStream.readUTF();
                 boolean isActive = dataInputStream.readBoolean();
                 int interval = dataInputStream.readInt();
@@ -142,12 +142,15 @@ public class TaskIO {
     }
     //
     private static int getIntervalFromText(String line){
-        int days, hours, minutes, seconds;
+        int days;
+        int hours;
+        int minutes;
+        int seconds;
         //[1 day 2 hours 46 minutes 40 seconds].
         //[46 minutes 40 seconds].
         //[46 minutes].
-        int start = line.lastIndexOf("[");
-        int end = line.lastIndexOf("]");
+        int start = line.lastIndexOf('[');
+        int end = line.lastIndexOf(']');
         String trimmed = line.substring(start+1, end);//returns interval without brackets -> 2 hours 46 minutes
         days = trimmed.contains("day") ? 1 : 0;
         hours = trimmed.contains("hour") ? 1 : 0;
@@ -155,7 +158,8 @@ public class TaskIO {
         seconds = trimmed.contains("second") ? 1 : 0;
 
         int[] timeEntities = new int[]{days, hours, minutes, seconds};
-        int i = 0, j = timeEntities.length-1;// positions of timeEntities available
+        int i = 0;
+        int j = timeEntities.length-1;// positions of timeEntities available
         while (i != 1 && j != 1) {
             if (timeEntities[i] == 0) i++;
             if (timeEntities[j] == 0) j--;
@@ -188,16 +192,17 @@ public class TaskIO {
     private static Date getDateFromText (String line, boolean isStartTime) {
         Date date = null;
         String trimmedDate; //date trimmed from whole string
-        int start, end;
+        int start;
+        int end;
 
         if (isStartTime){
-            start = line.indexOf("[");
-            end = line.indexOf("]");
+            start = line.indexOf('[');
+            end = line.indexOf(']');
         }
         else {
-            int firstRightBracket = line.indexOf("]");
-            start = line.indexOf("[", firstRightBracket+1);
-            end = line.indexOf("]", firstRightBracket+1);
+            int firstRightBracket = line.indexOf(']');
+            start = line.indexOf('[', firstRightBracket+1);
+            end = line.indexOf(']', firstRightBracket+1);
         }
         trimmedDate = line.substring(start, end+1);
         try {
@@ -211,7 +216,7 @@ public class TaskIO {
     }
     private static String getTitleFromText(String line){
         int start = 1;
-        int end = line.lastIndexOf("\"");
+        int end = line.lastIndexOf('\"');
         String result = line.substring(start, end);
         result = result.replace("\"\"", "\"");
         return result;
@@ -252,7 +257,8 @@ public class TaskIO {
         int seconds = (interval - (SECONDS_IN_DAY *days + SECONDS_IN_HOUR *hours + SECONDS_IN_MIN *minutes));
 
         int[] time = new int[]{days, hours, minutes, seconds};
-        int i = 0, j = time.length-1;
+        int i = 0;
+        int j = time.length-1;
         while (time[i] == 0 || time[j] == 0){
             if (time[i] == 0) i++;
             if (time[j] == 0) j--;

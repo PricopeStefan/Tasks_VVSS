@@ -192,7 +192,7 @@ public class NewEditController {
         return result;
     }
     private Task makeTask(){
-        //CHANGED on 12.03.2020 - made to validate the new title string length(tasks have a length of at least 1)
+        //made to validate the new title string length(tasks have a length of at least 1)
         String newTitle = fieldTitle.getText();
         if (newTitle == null || newTitle.length() == 0)
             return null;
