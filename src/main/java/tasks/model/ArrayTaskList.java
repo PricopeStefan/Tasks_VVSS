@@ -55,6 +55,7 @@ public class ArrayTaskList extends TaskList{
 
     @Override
     public void add(Task task){
+        if (task.getTitle().length() > 255 || task.getTitle().length() <1) throw new ExceptionInInitializerError("Invalid Task or Title");
         if (task == null) throw new NullPointerException("Task shouldn't be null");
         if (numberOfTasks == currentCapacity-1){
             currentCapacity = currentCapacity * 2;

@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45e0fc97-8392-4b9f-8aa1-026e5a1f8f44" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ModelTesting/TasksCRUDTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/lab1/Lab01_ReviewReport.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/lab1/Lab01_ReviewReport.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/lab1/RequirementsTasks_v1.0.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/lab1/RequirementsTasks_v1.0.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/ErrorHandling/ErrHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/error_handling/ErrHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/controller/NewEditController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/controller/NewEditController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/controller/Notificator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/controller/Notificator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/controller/TaskController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/task-manager-log.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/task-manager-log.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tasks/model/ArrayTaskList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/model/ArrayTaskList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/model/LinkedTaskList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/model/LinkedTaskList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/model/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/model/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/model/TaskList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/model/TaskList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/model/TasksOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/model/TasksOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/services/TaskIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/services/TaskIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/view/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/view/Main.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,35 +44,93 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.view.Main" />
+  <component name="RunManager" selected="JUnit.TasksCRUDTest">
+    <configuration name="TasksCRUDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Tasks_VVSS-master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tasks.view.*" />
+          <option name="PATTERN" value="ModelTesting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="ModelTesting" />
+      <option name="MAIN_CLASS_NAME" value="ModelTesting.TasksCRUDTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TasksCRUDTest.TC3_ECP_invalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tasks_VVSS-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ModelTesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ModelTesting" />
+      <option name="MAIN_CLASS_NAME" value="ModelTesting.TasksCRUDTest" />
+      <option name="METHOD_NAME" value="TC3_ECP_invalid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TasksCRUDTest.TC4_BVA_invaliV2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tasks_VVSS-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ModelTesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ModelTesting" />
+      <option name="MAIN_CLASS_NAME" value="ModelTesting.TasksCRUDTest" />
+      <option name="METHOD_NAME" value="TC4_BVA_invaliV2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TasksCRUDTest.TC4_BVA_invalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tasks_VVSS-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ModelTesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ModelTesting" />
+      <option name="MAIN_CLASS_NAME" value="ModelTesting.TasksCRUDTest" />
+      <option name="METHOD_NAME" value="TC4_BVA_invalid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TasksCRUDTest.TC4_BVA_invalidV2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tasks_VVSS-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ModelTesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ModelTesting" />
+      <option name="MAIN_CLASS_NAME" value="ModelTesting.TasksCRUDTest" />
+      <option name="METHOD_NAME" value="TC4_BVA_invalidV2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TasksCRUDTest" />
+        <item itemvalue="JUnit.TasksCRUDTest.TC4_BVA_invalidV2" />
+        <item itemvalue="JUnit.TasksCRUDTest.TC4_BVA_invalid" />
+        <item itemvalue="JUnit.TasksCRUDTest.TC3_ECP_invalid" />
+        <item itemvalue="JUnit.TasksCRUDTest.TC4_BVA_invaliV2" />
       </list>
     </recent_temporary>
   </component>
@@ -102,6 +149,7 @@
       <workItem from="1584024119186" duration="4630000" />
       <workItem from="1584030816221" duration="4777000" />
       <workItem from="1584103753036" duration="1885000" />
+      <workItem from="1585238716630" duration="5239000" />
     </task>
     <servers />
   </component>
@@ -130,26 +178,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1584032973913" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1585239415390">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1585239415390" />
     <state x="548" y="167" key="FileChooserDialogImpl" timestamp="1584035896719">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584035896719" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1584034135167">
+    <state width="1493" height="188" key="GridCell.Tab.0.bottom" timestamp="1585243937916">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584034135167" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1584034135166">
+    <state width="1493" height="188" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585243937916" />
+    <state width="1493" height="188" key="GridCell.Tab.0.center" timestamp="1585243937915">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584034135166" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1584034135166">
+    <state width="1493" height="188" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585243937915" />
+    <state width="1493" height="188" key="GridCell.Tab.0.left" timestamp="1585243937915">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584034135166" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1584034135166">
+    <state width="1493" height="188" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585243937915" />
+    <state width="1493" height="188" key="GridCell.Tab.0.right" timestamp="1585243937915">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584034135166" />
+    <state width="1493" height="188" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585243937915" />
     <state x="277" y="55" key="SettingsEditor" timestamp="1584035901498">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -31,3 +31,10 @@
 2020-03-12 19:28:55 INFO  Main:39 - saved data reading
 2020-03-12 19:28:55 INFO  Main:44 - application start
 2020-03-12 19:28:56 INFO  TaskController:75 - Main controller initializing
+2020-03-26 19:12:07 ERROR Task:43 - interval < than 1
+2020-03-26 19:12:58 ERROR Task:43 - interval < than 1
+2020-03-26 19:14:44 ERROR Task:43 - interval < than 1
+2020-03-26 19:14:44 ERROR Task:43 - interval < than 1
+2020-03-26 19:31:21 ERROR Task:43 - interval < than 1
+2020-03-26 19:32:18 ERROR Task:43 - interval < than 1
+2020-03-26 19:32:18 ERROR Task:43 - interval < than 1
