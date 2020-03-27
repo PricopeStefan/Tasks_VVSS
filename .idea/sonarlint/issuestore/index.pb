@@ -34,3 +34,5 @@ I
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
 R
 "src/main/java/tasks/view/Main.java,a\4\a4e952c1a4765c6cf9a337826a42d32c3f95db7f
+]
+-src/test/java/ModelTesting/TasksCRUDTest.java,e\a\ea5fade5d079e740f67dc4507405d4c769277ebf
