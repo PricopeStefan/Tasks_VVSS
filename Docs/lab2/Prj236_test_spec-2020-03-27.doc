@@ -1,0 +1,117 @@
+<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01 Transitional//EN'>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>testspec Prj236 - d_Sandu_BBT</title>
+<link type="text/css" rel="stylesheet" href="http://www.scs.ubbcluj.ro/testlink/gui/themes/default/css/tl_documents.css" />
+<style type="text/css" media="print">.notprintable { display:none;}</style>
+</head>
+<body>
+<div>
+<div style="float:right;">TestLink Community [configure $tlCfg-&gt;document_generator-&gt;company_name]</div>
+<div>&nbsp;</div><hr />
+<p style="text-align: center;"><img alt="TestLink logo" title="configure using $tlCfg->document_generator->company_logo" height="53" src="http://www.scs.ubbcluj.ro/testlink/gui/themes/default/images/tl-logo-transparent-25.png" /></div>
+<div class="doc_title"><p>Test Specification</p></div>
+<div class="doc_title" style="text-align:left;margin: auto;"><p>Test Project: Prj236<br>Test Suite: Prj236 - d_Sandu_BBT</p></div>
+<div class="summary"><p id="printedby">Printed by TestLink on 27/03/2020</p></div>
+<div class="pagefooter" id="copyright">2012 &copy; TestLink Community</div>
+<h1 class="general" style="page-break-before: always">Table Of Contents</h1><div class="toc"><b><p style="padding-left: 20px;"><a href="#toc_1">1. d_Sandu_BBT</a></p></b>
+<p style="padding-left: 45px;"><a href="#toc_tc41054">Prj236-74: TC01_ECP_valid</a></p><p style="padding-left: 45px;"><a href="#toc_tc41057">Prj236-75: TC2_BVA_valid</a></p><p style="padding-left: 45px;"><a href="#toc_tc41059">Prj236-76: TC3_ECP_invalid</a></p><p style="padding-left: 45px;"><a href="#toc_tc41061">Prj236-77: TC4_BVA_invalid</a></p></div><h1 class="doclevel" >Scope</h1>
+<div class="txtlevel"><p>
+	Testing project for group 236</p></div>
+ <br/><a name='toc_1'></a>
+<h1 class='doclevel'>1. Test Suite : d_Sandu_BBT</h1>
+<a name="toc_tc41054"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="3">Test Case Prj236-74: TC01_ECP_valid</th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="2">d_Sandu</td></tr>
+<tr><td colspan="3"><span class="label">Summary:</span><br /><p>
+	Functionalitatea F01: adaugarea unui task</p>
+<p>
+	Title - un string valid</p>
+<p>
+	Interval - o perioada de timp valida(cooldown)</p>
+</td></tr><tr><td colspan="3"><span class="label">Preconditions:</span><br /><p>
+	-2 parametrii, niciunul null</p>
+<p>
+	-titlul are o lungime intre 0 si 256</p>
+<p>
+	-intervalul este un numar strict pozitiv strict mai mic decat maximul reprezentat de INT_MAX)</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="2">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="2"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="2">Medium</td></tr>
+<tr><td colspan="3"></td></tr><tr><td > name of the test method:</td><td  colspan = "2" >TC01_ECP_valid</td></tr>
+<tr><td > name of the autotest class:</td><td  colspan = "2" >TasksCRUDTest</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="2">d_Sandu_F01:  d_Sandu_F01<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span><td colspan="2">&nbsp;None<br></td></tr>
+</table>
+</div>
+<a name="toc_tc41057"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="3">Test Case Prj236-75: TC2_BVA_valid</th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="2">d_Sandu</td></tr>
+<tr><td colspan="3"><span class="label">Summary:</span><br /><p>
+	Functionalitatea F01: adaugarea unui task</p>
+<p>
+	Title - un string valid</p>
+<p>
+	Interval - o perioada de timp valida(cooldown)</p>
+</td></tr><tr><td colspan="3"><span class="label">Preconditions:</span><br /><p>
+	-2 parametrii, niciunul null<br />
+	<br />
+	-titlul are o lungime intre 0 si 256<br />
+	<br />
+	-intervalul este un numar strict pozitiv strict mai mic decat maximul reprezentat de INT_MAX)</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="2">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="2"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="2">Medium</td></tr>
+<tr><td colspan="3"></td></tr><tr><td > name of the test method:</td><td  colspan = "2" >TC2_BVA_valid</td></tr>
+<tr><td > name of the autotest class:</td><td  colspan = "2" >TasksCRUDTest</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="2">d_Sandu_F01:  d_Sandu_F01<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span><td colspan="2">&nbsp;None<br></td></tr>
+</table>
+</div>
+<a name="toc_tc41059"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="3">Test Case Prj236-76: TC3_ECP_invalid</th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="2">d_Sandu</td></tr>
+<tr><td colspan="3"><span class="label">Summary:</span><br /><p>
+	Functionalitatea F01: adaugarea unui task</p>
+<p>
+	Title - un string invalid ( ca sa crape ECP-ul )</p>
+<p>
+	Interval - o perioada de timp valida(cooldown)</p>
+</td></tr><tr><td colspan="3"><span class="label">Preconditions:</span><br /><p>
+	-2 parametrii, niciunul null</p>
+<p>
+	-titlul are o lungime &gt;255</p>
+<p>
+	-intervalul este un numar strict pozitiv strict mai mic decat maximul (reprezentat de INT_MAX)</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="2">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="2"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="2">Medium</td></tr>
+<tr><td colspan="3"></td></tr><tr><td > name of the test method:</td><td  colspan = "2" >TC3_ECP_invalid</td></tr>
+<tr><td > name of the autotest class:</td><td  colspan = "2" >TasksCRUDTest</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="2">d_Sandu_F01:  d_Sandu_F01<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span><td colspan="2">&nbsp;None<br></td></tr>
+</table>
+</div>
+<a name="toc_tc41061"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="3">Test Case Prj236-77: TC4_BVA_invalid</th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="2">d_Sandu</td></tr>
+<tr><td colspan="3"><span class="label">Summary:</span><br /><p>
+	Functionalitatea F01: adaugarea unui task</p>
+<p>
+	Title - un string valid</p>
+<p>
+	Interval - o perioada de timp invalida(sa crape BVA-ul)</p>
+</td></tr><tr><td colspan="3"><span class="label">Preconditions:</span><br /><p>
+	-2 parametrii, niciunul null<br />
+	<br />
+	-titlul are o lungime intre 0 si 256<br />
+	<br />
+	-intervalul este 0(fix la margine)</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="2">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="2"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="2">Medium</td></tr>
+<tr><td colspan="3"></td></tr><tr><td > name of the test method:</td><td  colspan = "2" >TC4_BVA_invalid</td></tr>
+<tr><td > name of the autotest class:</td><td  colspan = "2" >TasksCRUDTest</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="2">d_Sandu_F01:  d_Sandu_F01<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span><td colspan="2">&nbsp;None<br></td></tr>
+</table>
+</div>
+
+</body>
+</html>

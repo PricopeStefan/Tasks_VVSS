@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45e0fc97-8392-4b9f-8aa1-026e5a1f8f44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ModelTesting/TasksCRUDTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/task-manager-log.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/task-manager-log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/model/ArrayTaskList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/model/ArrayTaskList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/lab2/Lab02_BBT_TCs_Form.xls" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/lab2/Lab02_BBT_TCs_Form.xls" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +41,18 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="JUnit.TasksCRUDTest">
     <configuration name="TasksCRUDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -150,6 +160,7 @@
       <workItem from="1584030816221" duration="4777000" />
       <workItem from="1584103753036" duration="1885000" />
       <workItem from="1585238716630" duration="5239000" />
+      <workItem from="1585310142931" duration="623000" />
     </task>
     <servers />
   </component>
