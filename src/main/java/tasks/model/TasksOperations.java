@@ -3,6 +3,7 @@ package tasks.model;
 import javafx.collections.ObservableList;
 
 import java.util.*;
+import java.util.logging.Logger;
 
 /**
  * Class that handles task operations: incoming, calendar
@@ -16,15 +17,19 @@ public class TasksOperations {
         tasks.addAll(tasksList);
     }
 
-    public Iterable<Task> incoming(Date start, Date end){
-        System.out.println(start);
-        System.out.println(end);
+    public Iterable<Task> incoming(Date start, Date end)  {
         ArrayList<Task> incomingTasks = new ArrayList<>();
-        for (Task t : tasks) {
-            Date nextTime = t.nextTimeAfter(start);
-            if (nextTime != null && (nextTime.before(end) || nextTime.equals(end))) {
-                incomingTasks.add(t);
-                System.out.println(t.getTitle());
+        if(start == null || end == null)
+            throw new RuntimeException("Date shouldn't be null.");
+        else {
+            for (Task task : tasks) {
+                Date nextTime = task.nextTimeAfter(start);
+                if (nextTime != null) {
+                    if (nextTime.before(end) || nextTime.equals(end)) {
+                        incomingTasks.add(task);
+                        Logger.getLogger(task.getTitle());
+                    }
+                }
             }
         }
         return incomingTasks;
