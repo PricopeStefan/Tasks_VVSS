@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45e0fc97-8392-4b9f-8aa1-026e5a1f8f44" name="Default Changelist" comment="New code">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ModelTesting/TasksTest.java" afterDir="false" />
+    <list default="true" id="45e0fc97-8392-4b9f-8aa1-026e5a1f8f44" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/model/TasksOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/model/TasksOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ModelTesting/TasksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModelTesting/TasksTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +49,11 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ptido\Downloads\Tasks_VVSS-master (1)\Tasks_VVSS-master\Docs\lab3" />
+    </key>
   </component>
   <component name="RunManager" selected="JUnit.TasksTest">
     <configuration name="TasksCRUDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -171,8 +175,17 @@
       <workItem from="1584103753036" duration="1885000" />
       <workItem from="1585238716630" duration="5239000" />
       <workItem from="1585310142931" duration="1556000" />
-      <workItem from="1586439157475" duration="4565000" />
+      <workItem from="1586439157475" duration="4862000" />
+      <workItem from="1586445906354" duration="1218000" />
     </task>
+    <task id="LOCAL-00001" summary="New code">
+      <created>1586443782717</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586443782717</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,46 +233,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586443574318" />
-    <state width="1493" height="187" key="GridCell.Tab.0.bottom" timestamp="1586443925240">
+    <state width="1493" height="187" key="GridCell.Tab.0.bottom" timestamp="1586446274891">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="187" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586443925240" />
-    <state width="1493" height="187" key="GridCell.Tab.0.center" timestamp="1586443925240">
+    <state width="1493" height="187" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586446274891" />
+    <state width="1493" height="187" key="GridCell.Tab.0.center" timestamp="1586446274891">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="187" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586443925240" />
-    <state width="1493" height="187" key="GridCell.Tab.0.left" timestamp="1586443925240">
+    <state width="1493" height="187" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586446274891" />
+    <state width="1493" height="187" key="GridCell.Tab.0.left" timestamp="1586446274891">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="187" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586443925240" />
-    <state width="1493" height="187" key="GridCell.Tab.0.right" timestamp="1586443925240">
+    <state width="1493" height="187" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586446274891" />
+    <state width="1493" height="187" key="GridCell.Tab.0.right" timestamp="1586446274891">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="187" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586443925240" />
-    <state width="1493" height="2" key="GridCell.Tab.1.bottom" timestamp="1586442469487">
+    <state width="1493" height="187" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586446274891" />
+    <state width="1493" height="2" key="GridCell.Tab.1.bottom" timestamp="1586444026335">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586442469487" />
-    <state width="1493" height="2" key="GridCell.Tab.1.center" timestamp="1586442469486">
+    <state width="1493" height="2" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586444026335" />
+    <state width="1493" height="2" key="GridCell.Tab.1.center" timestamp="1586444026335">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586442469486" />
-    <state width="1493" height="2" key="GridCell.Tab.1.left" timestamp="1586442469486">
+    <state width="1493" height="2" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586444026335" />
+    <state width="1493" height="2" key="GridCell.Tab.1.left" timestamp="1586444026335">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586442469486" />
-    <state width="1493" height="2" key="GridCell.Tab.1.right" timestamp="1586442469487">
+    <state width="1493" height="2" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586444026335" />
+    <state width="1493" height="2" key="GridCell.Tab.1.right" timestamp="1586444026335">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586442469487" />
+    <state width="1493" height="2" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586444026335" />
     <state x="506" y="34" key="SettingsEditor" timestamp="1586443430293">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="506" y="34" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586443430293" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1586439176289">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1586445907256">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586439176289" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586445907256" />
     <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586443894015">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -319,7 +332,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Tasks_VVSS_master$TasksTest.ic" NAME="TasksTest Coverage Results" MODIFIED="1586443046529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Tasks_VVSS_master$TasksTest.ic" NAME="TasksTest Coverage Results" MODIFIED="1586446274795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>tasks.model.TasksOperations</FILTER>
     </SUITE>
   </component>

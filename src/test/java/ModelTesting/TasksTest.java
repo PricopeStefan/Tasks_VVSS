@@ -28,16 +28,16 @@ public class TasksTest {
 
         sdf = new SimpleDateFormat("dd-MM-yyyy HH:mm");
 
-        String dateInString1 = "01-04-2020 10:10";
-        String dateInString2 = "01-04-2020 12:10";
+        String dateInString1 = "02-09-2020 11:10";
+        String dateInString2 = "02-09-2020 13:10";
         Date dateStar = sdf.parse(dateInString1);
         Date dateEnd = sdf.parse(dateInString2);
         task1 = new Task("Descriere", dateStar, dateEnd, 2);
         task1.setActive(true);
 
 
-        dateInString1 = "01-04-2020 10:20";
-        dateInString2 = "01-04-2020 12:20";
+        dateInString1 = "02-09-2020 11:20";
+        dateInString2 = "02-09-2020 13:20";
         dateStar = sdf.parse(dateInString1);
         dateEnd = sdf.parse(dateInString2);
         task2 = new Task("Descriere", dateStar, dateEnd, 2);
@@ -100,7 +100,7 @@ public class TasksTest {
     //here we test if the program correctly steps over the if statement as the condition is not fulfilled
     @ParameterizedTest
     @CsvSource({
-            "02-09-2020 13:10,         02-09-2020 13:20"
+            "02-09-2020 14:10,         02-09-2020 14:20"
     })
     public void F02_TC3(String startTime, String endTime) throws ParseException {
 
@@ -124,7 +124,7 @@ public class TasksTest {
     //here we test if the program correctly passes the second inner if (in the for statement) to still return no incoming tasks
     @ParameterizedTest
     @CsvSource({
-            "01-04-2020 8:00,         01-04-2020 9:00"
+            "02-09-2020 9:00,         02-09-2020 10:00"
     })
     public void F02_TC4(String startTime, String endTime) throws ParseException {
 
@@ -148,7 +148,7 @@ public class TasksTest {
     //here we test if the program correctly adds the task up (all the if stataments pass)
     @ParameterizedTest
     @CsvSource({
-            "01-04-2020 10:00,         01-04-2020 12:10"
+            "02-09-2020 11:00,         02-09-2020 13:10"
     })
     public void F02_TC6(String startTime, String endTime) throws ParseException {
 
@@ -172,7 +172,7 @@ public class TasksTest {
     //almost the same as the previous test but here we have multiple tasks
     @ParameterizedTest
     @CsvSource({
-            "01-04-2020 10:00,         01-04-2020 15:00"
+            "02-09-2020 11:00,         02-09-2020 16:00"
     })
     public void F02_TC5(String startTime, String endTime) throws ParseException {
 
