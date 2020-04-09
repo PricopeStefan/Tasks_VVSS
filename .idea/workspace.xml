@@ -14,6 +14,10 @@
   <component name="CoverageViewManager">
     <option name="myElementSize" value="221" />
   </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="C:\Users\ptido\Downloads\Tasks_VVSS-master (1)\Tasks_VVSS-master\reports" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -23,6 +27,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -207,30 +212,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="196" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1586443206574" />
-    <state x="314" y="7" key="CommitChangelistDialog2" timestamp="1586442639329">
+    <state x="314" y="7" key="CommitChangelistDialog2" timestamp="1586443781884">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="314" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586442639329" />
+    <state x="314" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586443781884" />
     <state x="548" y="167" key="FileChooserDialogImpl" timestamp="1586443574318">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586443574318" />
-    <state width="1493" height="187" key="GridCell.Tab.0.bottom" timestamp="1586443046634">
+    <state width="1493" height="187" key="GridCell.Tab.0.bottom" timestamp="1586443925240">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="187" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586443046634" />
-    <state width="1493" height="187" key="GridCell.Tab.0.center" timestamp="1586443046634">
+    <state width="1493" height="187" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586443925240" />
+    <state width="1493" height="187" key="GridCell.Tab.0.center" timestamp="1586443925240">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="187" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586443046634" />
-    <state width="1493" height="187" key="GridCell.Tab.0.left" timestamp="1586443046634">
+    <state width="1493" height="187" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586443925240" />
+    <state width="1493" height="187" key="GridCell.Tab.0.left" timestamp="1586443925240">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="187" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586443046634" />
-    <state width="1493" height="187" key="GridCell.Tab.0.right" timestamp="1586443046634">
+    <state width="1493" height="187" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586443925240" />
+    <state width="1493" height="187" key="GridCell.Tab.0.right" timestamp="1586443925240">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="187" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586443046634" />
+    <state width="1493" height="187" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586443925240" />
     <state width="1493" height="2" key="GridCell.Tab.1.bottom" timestamp="1586442469487">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -255,6 +260,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586439176289" />
+    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586443894015">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1586443894015" />
     <state x="330" y="148" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1586442911190">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
