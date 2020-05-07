@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45e0fc97-8392-4b9f-8aa1-026e5a1f8f44" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,105 +68,96 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TasksTest">
-    <configuration name="TasksCRUDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Tasks_VVSS-master" />
+  <component name="RunManager" selected="JUnit.tasks in Tasks">
+    <configuration name="ServiceIntegrationWithRepoAndEntities" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ModelTesting.*" />
+          <option name="PATTERN" value="tasks.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ModelTesting" />
-      <option name="MAIN_CLASS_NAME" value="ModelTesting.TasksCRUDTest" />
+      <option name="PACKAGE_NAME" value="tasks.services" />
+      <option name="MAIN_CLASS_NAME" value="tasks.services.ServiceIntegrationWithRepoAndEntities" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TasksCRUDTest.TC4_BVA_invalidV2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Tasks_VVSS-master" />
+    <configuration name="ServiceIntegrationWithRepoAndEntities.test02_integration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ModelTesting.*" />
+          <option name="PATTERN" value="tasks.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ModelTesting" />
-      <option name="MAIN_CLASS_NAME" value="ModelTesting.TasksCRUDTest" />
-      <option name="METHOD_NAME" value="TC4_BVA_invalidV2" />
+      <option name="PACKAGE_NAME" value="tasks.services" />
+      <option name="MAIN_CLASS_NAME" value="tasks.services.ServiceIntegrationWithRepoAndEntities" />
+      <option name="METHOD_NAME" value="test02_integration" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TasksTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Tasks_VVSS-master" />
+    <configuration name="ServiceIntegrationWithRepo.test02_integration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ModelTesting.*" />
-          <option name="ENABLED" value="false" />
-        </pattern>
-        <pattern>
-          <option name="PATTERN" value="tasks.model.TasksOperations" />
+          <option name="PATTERN" value="tasks.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ModelTesting" />
-      <option name="MAIN_CLASS_NAME" value="ModelTesting.TasksTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TasksTest.F02_TC3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Tasks_VVSS-master" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ModelTesting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ModelTesting" />
-      <option name="MAIN_CLASS_NAME" value="ModelTesting.TasksTest" />
-      <option name="METHOD_NAME" value="F02_TC3(java.lang.String,java.lang.String)" />
+      <option name="PACKAGE_NAME" value="tasks.services" />
+      <option name="MAIN_CLASS_NAME" value="tasks.services.ServiceIntegrationWithRepo" />
+      <option name="METHOD_NAME" value="test02_integration" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TasksTest.F02_TC4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Tasks_VVSS-master" />
+    <configuration name="tasks in Tasks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ModelTesting.*" />
+          <option name="PATTERN" value="tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ModelTesting" />
-      <option name="MAIN_CLASS_NAME" value="ModelTesting.TasksTest" />
-      <option name="METHOD_NAME" value="F02_TC4(java.lang.String,java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="tasks" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tasks.services in Tasks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tasks.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tasks.services" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TasksCRUDTest" />
-      <item itemvalue="JUnit.TasksCRUDTest.TC4_BVA_invalidV2" />
-      <item itemvalue="JUnit.TasksTest" />
-      <item itemvalue="JUnit.TasksTest.F02_TC3" />
-      <item itemvalue="JUnit.TasksTest.F02_TC4" />
+      <item itemvalue="JUnit.ServiceIntegrationWithRepoAndEntities" />
+      <item itemvalue="JUnit.ServiceIntegrationWithRepoAndEntities.test02_integration" />
+      <item itemvalue="JUnit.ServiceIntegrationWithRepo.test02_integration" />
+      <item itemvalue="JUnit.tasks.services in Tasks" />
+      <item itemvalue="JUnit.tasks in Tasks" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TasksTest" />
-        <item itemvalue="JUnit.TasksTest.F02_TC4" />
-        <item itemvalue="JUnit.TasksTest.F02_TC3" />
-        <item itemvalue="JUnit.TasksCRUDTest" />
-        <item itemvalue="JUnit.TasksCRUDTest.TC4_BVA_invalidV2" />
+        <item itemvalue="JUnit.tasks in Tasks" />
+        <item itemvalue="JUnit.tasks.services in Tasks" />
+        <item itemvalue="JUnit.ServiceIntegrationWithRepo.test02_integration" />
+        <item itemvalue="JUnit.ServiceIntegrationWithRepoAndEntities" />
+        <item itemvalue="JUnit.ServiceIntegrationWithRepoAndEntities.test02_integration" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +181,7 @@
       <workItem from="1586439157475" duration="4862000" />
       <workItem from="1586445906354" duration="1218000" />
       <workItem from="1586516555254" duration="855000" />
-      <workItem from="1588855403129" duration="120000" />
+      <workItem from="1588855403129" duration="11699000" />
     </task>
     <task id="LOCAL-00001" summary="New code">
       <created>1586443782717</created>
@@ -314,34 +304,9 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/tasks/model/Task.java</url>
-          <line>101</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/tasks/model/Task.java</url>
-          <line>102</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/ModelTesting/TasksTest.java</url>
           <line>140</line>
           <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/tasks/model/Task.java</url>
-          <line>103</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/tasks/model/Task.java</url>
-          <line>105</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/tasks/model/Task.java</url>
-          <line>106</line>
-          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
