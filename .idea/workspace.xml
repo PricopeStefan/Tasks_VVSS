@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="45e0fc97-8392-4b9f-8aa1-026e5a1f8f44" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tasks/services/ServiceIntegrationWithRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tasks/services/ServiceIntegrationWithRepo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -181,7 +181,7 @@
       <workItem from="1586439157475" duration="4862000" />
       <workItem from="1586445906354" duration="1218000" />
       <workItem from="1586516555254" duration="855000" />
-      <workItem from="1588855403129" duration="11699000" />
+      <workItem from="1588855403129" duration="12896000" />
     </task>
     <task id="LOCAL-00001" summary="New code">
       <created>1586443782717</created>
