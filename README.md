@@ -1,0 +1,1 @@
+#### Linkul pentru laboratorul 5 la VVSS este [Github link](https://github.com/PricopeStefan/VVSSL5)

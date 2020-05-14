@@ -38,3 +38,11 @@ R
 -src/test/java/ModelTesting/TasksCRUDTest.java,e\a\ea5fade5d079e740f67dc4507405d4c769277ebf
 Y
 )src/test/java/ModelTesting/TasksTest.java,e\4\e43df45ee7f4f89b053c116c34b828146c0189fd
+e
+5src/test/java/tasks/services/TasksServiceTesting.java,9\e\9ec2fad09fcb400c1866bfbd8e407c19c917248f
+c
+3src/test/java/tasks/model/ArrayTaskListTesting.java,8\f\8f9baec1e935e498f394039d29c432da9be7da81
+w
+Gsrc/test/java/tasks/services/ServiceIntegrationWithRepoAndEntities.java,c\7\c72571488c78dc383116190202f8be2aa67e3ea0
+l
+<src/test/java/tasks/services/ServiceIntegrationWithRepo.java,8\6\86d2016ff06e10eb0b223d2e0438ec775211438f
